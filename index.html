@@ -8,88 +8,100 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__menu container1">
-            <div class="header__logo">
-                <img src="./assets/logo.svg" alt="logo-icon">
-                <span class="header__logo--bold">Чіп Чендж</span>
+        <div class="container-lg">
+            <div class="header__menu">
+                <div class="header__logo">
+                    <img src="./assets/logo.svg" alt="logo-icon">
+                    <span class="header__logo--bold">Чіп Чендж</span>
+                </div>
+                <nav class="header__links">
+                    <ul>
+                        <li><a href="">Послуги</a>
+                        <li><a href="">Конвертер валют</a></li>
+                        <li><a href="">Контакти</a></li>
+                        <li><a href="">Задати питання</a></li>
+                    </ul>
+                </nav>
+                <div class="header__login">
+                    <img src="./assets/persAccount-icon.svg" alt="persAccount-icon">
+                    <a href="">Особистий кабінет</a>
+                </div>
             </div>
-            <div class="header__links">
-                <a href="">Послуги</a>
-                <a href="">Конвертер валют</a>
-                <a href="">Контакти</a>
-                <a href="">Задати питання</a>
-            </div>
-            <div class="header__login">
-                <img src="./assets/persAccount-icon.svg" alt="persAccount-icon">
-                <a href="">Особистий кабінет</a>
-            </div>
-        </nav>
+        </div>
     </header>
     <section class="title">
-        <div class="container2">
-            <div class="title__left">
-                <h1 class="title__left--bold">Чіп Чендж</h1>
-                <span>Обмінник валют - навчальний</span>
-                <button>Конвертер валют</button>
-            </div>
-            <div class="title__right">
-                <img src="./assets/debitCard-img.svg" alt="debitCard-img">
+        <div class="container-md">
+            <div class="title__items">
+                <div class="title__left">
+                    <h1 class="title__left--bold">Чіп Чендж</h1>
+                    <span>Обмінник валют - навчальний</span>
+                    <button>Конвертер валют</button>
+                </div>
+                <div class="title__right">
+                    <img src="./assets/debitCard-img.svg" alt="debitCard-img">
+                </div>
             </div>
         </div>
     </section>
     <main class="converter">
-        <div class="container2">
-            <div class="converter__left">
-                <h2 class="converter__left--bold">Конвертер валют</h2>
-                <p>Переважна діяльність банківської <br>
-                     групи за останні чотири звітні квартали <br> 
-                     становить 50 і більше відсотків.</p>
-                <button>Конвертувати валюту</button>
-            </div>
-            <div class="converter__right">
-                <img src="./assets/converterSection-img.svg" alt="converterSection-img">
+        <div class="container-md">
+            <div class="converter__items">
+                <div class="converter__left">
+                    <h2 class="converter__left--bold">Конвертер валют</h2>
+                    <p>Переважна діяльність банківської <br>
+                    групи за останні чотири звітні квартали <br>
+                    становить 50 і більше відсотків.</p>
+                    <button>Конвертувати валюту</button>
+                </div>
+                <div class="converter__right">
+                    <img src="./assets/converterSection-img.svg" alt="converterSection-img">
+                </div>
             </div>
         </div>
     </main>
     <footer class="footer">
-      <div class="container1">
-        <div class="footer__contacts">
-            <img src="./assets/logo.svg" alt="logo-icon">
-            <span class="footer__contacts--bold">Чіп Чендж</span>
-            <p>04128, м.Київ, вул. Хрещатик, 19 <br>
+      <div class="container-lg">
+        <div class="footer__items" id="footer-grid">
+            <div class="footer__contacts">
+                <img src="./assets/logo.svg" alt="logo-icon">
+                <span class="footer__contacts--bold">Чіп Чендж</span>
+                <p>04128, м.Київ, вул. Хрещатик, 19 <br>
                 Ліцензія НБУ №156 <br>
                 Ⓒ ПАТ ЧіпЧендж, 2019-2023</p>
-        </div>
-        <div class="footer__links">
-            <a href="">Послуги</a>
-            <a href="">Конвертер валют</a>
-            <a href="">Контакти</a>
-            <a href="">Задати питання</a>
-        </div>
-        <div class="footer__support">
-            <div>
-                <img src="./assets/phone-icon.svg" alt="phone-icon">
             </div>
-            <div class="support__right">
-                <span class="footer__support--medium">3773</span>
-                <p class="footer__support--txt">Цілодобова підтримка</p>
+            <nav class="footer__links">
+                <ul>
+                    <li><a href="">Послуги</a></li>
+                    <li><a href="">Конвертер валют</a></li>
+                    <li><a href="">Контакти</a></li>
+                    <li><a href="">Задати питання</a></li>
+                </ul>
+            </nav>
+            <div class="footer__support">
+                <div>
+                    <img src="./assets/phone-icon.svg" alt="phone-icon">
+                </div>
+                <div class="support__right">
+                    <span class="footer__support--medium">3773</span>
+                    <p class="footer__support--txt">Цілодобова підтримка</p>
+                </div>
             </div>
-        </div>
-        <div class="footer__tel">
-            <div>
-                <img src="./assets/phone2-icon.svg" alt="phone2-icon">
+            <div class="footer__tel">
+                <div>
+                    <img src="./assets/phone2-icon.svg" alt="phone2-icon">
+                </div>
+                <div class="tel__right">
+                    <span class="footer__tel--medium">8 800 111 22 33</span>
+                    <p class="footer__support--txt">Безкожтовно для дзвінків <br>
+                        в межах України</p>
+                </div>
             </div>
-            <div class="tel__right">
-                <span class="footer__tel--medium">8 800 111 22 33</span>
-                <p class="footer__support--txt">Безкожтовно для дзвінків <br>
-                    в межах України</p>
+            <div class="footer__social">
+                <a href=""><img src="./assets/fb-icon.svg" alt="fb-icon"></a>
+                <a href=""><img src="./assets/inst-icon.svg" alt="inst-icon"></a>
+                <a href=""><img src="./assets/x-icon.svg" alt="x-icon"></a>
+                <a href=""><img src="./assets/youtube-icon.svg" alt="youtube-icon"></a>
             </div>
-        </div>
-        <div class="footer__social">
-            <a href=""><img src="./assets/fb-icon.svg" alt="fb-icon"></a>
-            <a href=""><img src="./assets/inst-icon.svg" alt="inst-icon"></a>
-            <a href=""><img src="./assets/x-icon.svg" alt="x-icon"></a>
-            <a href=""><img src="./assets/youtube-icon.svg" alt="youtube-icon"></a>
         </div>
       </div>
     </footer>
